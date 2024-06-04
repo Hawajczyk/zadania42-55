@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Rysowanie Prostokąta - Drozd</title>
+</head>
+<body>
+<div style="color:black;font-size:20px;">
+<script language="JavaScript">
+    var a_dro = parseInt(prompt("Podaj wysokość (a):", ""));
+    var b_dro = parseInt(prompt("Podaj szerokość (b):", ""));
+    for (var i = 0; i < b_dro; i++) {
+        document.write("*");
+    }
+    document.write("<br>");
+    var wiersz_dro = "*";
+    for (var i = 1; i <= (b_bad - 2); i++) {
+        wiersz_dro += "&nbsp&nbsp";
+    }
+    wiersz_dro += "*";
+    for (var i = 1; i <= (a_dro - 2); i++) {
+        document.write(wiersz_dro + "<br>");
+    }
+    for (var i = 0; i < b_dro; i++) {
+        document.write("*");
+    }
+    document.write("<br>");
+</script>
+</div>
+</body>
+</html>
